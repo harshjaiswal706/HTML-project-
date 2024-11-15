@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <form>
+        <!-- for outer line we use fieldset inside the form then use legend but firstly 
+        remove the h1 tag -->
+
+        <fieldset>
+            <legend>IIT JEE Resistration Form</legend>
+        <!-- full name -->
+        <label for="first">Full Name:</label>
+        <input type="text" id="first" name="fname" required placeholder="enter your name" required >
+        <br>
+        <br>
+        <!-- email -->
+        <label for="second">Email:</label>
+        <input type="email" id="second" name="femail" required placeholder="gumla@gmail.com" required >
+        <br>
+        <br>
+        <!-- phone number -->
+
+        <label for="third">Phone number:</label>
+        <input type="tel" id="third" name="fphone" required placeholder="enter your number" required >
+        <br>
+        <br>
+            <!-- password -->
+
+        <label for="fourth">password:</label>
+        <input type="password" id="fourth" name="fpassword" required placeholder="************" required >
+        <br>
+        <br>
+
+            <!-- radio button -->
+        <label>Gender:</label>
+        
+        <input type="radio" id="fifth" name="jais" value="male">
+        <label for="fifth">male</label>
+
+        <input type="radio" id="sixth" name="jais" value="female">
+        <label for="sixth">female</label>
+
+        <input type="radio" id="seventh" name="jais" value="other">
+        <label for="seventh">other</label>
+        <br>
+        <br>
+        <!-- date of birth -->
+        <label for="eight">Date Of Birth:</label>
+        <!-- min and max is the age limit -->
+        <input type="date" id="eight" name="fdob" required  min="2001-01-01" max="2005-12-31">
+        <br>
+        <br>
+        <!-- school name -->
+        <label for="nine">school name:</label>
+        <input type="text" id="nine" name="fschool" required placeholder="enter your school name">
+        <br>
+        <br>
+        <!-- it is called drop down method-->
+        <label for="ten">Board:</label>
+        <select name="fboard" id="ten" >
+            <option value=""disabled selected>select your board</option>
+            <option value="cbsc">cbsc</option>
+            <option value="maharastra university">maharastra university</option>
+            <option value="jack">jack</option>
+            <option value="up board">up board</option>
+            <option value="central university">central university</option>
+            <option value="bihar board">bihar board</option>
+        </select>
+
+        <br>
+        <br>
+        <!-- year of passing -->
+
+        <label for="eleven">year of passing:</label>
+         <input type="number" id="eleven" name="fpass" min="2021" max="2025">
+
+         <br>
+         <br>
+         <!-- drop down method -->
+        <label for="twelve">exam-center</label>
+         <select name="fcenter" id="twelve">
+            <option value=""disabled selected>select center</option>
+            <option value="">ranchi</option>
+            <option value="">bokaro</option>
+            <option value="">dhanbad</option>
+            <option value="">gumla</option>
+            <option value="">ramghar</option>
+            <option value="">khunti</option>
+         </select>
+         <br>
+         <br>
+         <!-- register -->
+
+         <button>register</button>
+
+
+        </fieldset>
+
+
+        </form>
+
+
+</body>
+</html>

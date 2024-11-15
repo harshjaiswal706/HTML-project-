@@ -1,0 +1,43 @@
+.pro{
+    width: 30vw;
+    height: 10vw;
+    background-color: aqua;
+    border: 10px black solid;
+    padding: 10px;
+    margin: 20px 20px 20px 35vw;
+    /* width and height me vw liye hai isliye margin me left ke side vw me liye hai  */
+}
+
+h1{
+    color: blue;
+    text-align: center;
+}
+
+/* background color */
+body{
+    background-color: chartreuse;
+}
+
+h2{
+    color: blueviolet;
+    text-align: center;
+}
+
+p{
+    color: black;
+    text-align: center;
+}
+
+/* jab hmlg cursor ko text ke upper le jaye tb uska color change ho jana chaiye */
+.pro:hover h2{
+    color: coral;
+}
+
+
+.pro:hover{
+    background-color: darkgray;
+}
+
+.pro:hover{
+    transform: scale(1.1);
+}

@@ -1,0 +1,9 @@
+.first{
+    background-color: red;
+    height: 60vh;
+    width: 60vh;
+    border-radius: 50%;
+    margin: auto;
+    /* margin: auto; = horizontally circle ko center me lane ke liye  */
+    margin-top: 20vh;
+}

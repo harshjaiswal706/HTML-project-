@@ -1,0 +1,47 @@
+.first{
+    /* display: inline; */
+    background-color: aquamarine;
+    width: 200px;
+    height: 50px;
+    margin: 20px;
+    text-align: center;
+
+
+}
+ 
+.second{
+    background-color: chocolate;
+    width: 200px;
+    height: 50px;
+    margin: 20px;
+    text-align: center;
+}
+
+span{
+    /* display: block; */
+    /* display: inline-block; */
+   
+    
+    background-color: cornflowerblue;
+    width: 200px;
+    height: 50px;
+    margin: 20px;
+    
+}
+/* block element  */
+/* isme height , weight , margin sb de skte hai  */
+ 
+/* inline element  */
+/* isme height , weight nahi de skte hai  */
+/* isme margin sirf horizontal hii hota hai vertical kaam ny krta hai vertical hota hai but visible nahi hota hai  */
+
+/* hmlg inline element ko block element bna skte hai 
+bas display: block; aise likhna hai as well as block element ke 
+saath bhi aise hii krr skte hai display: inline; */
+
+
+
+/* display */
+ /* hmlg display: inline-block  bhi de skte hai isme inline wala hii behavior show krta hai 
+ lekin isme height widht de skte hai  */
+

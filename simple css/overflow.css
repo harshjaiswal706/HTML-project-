@@ -1,0 +1,18 @@
+/* the overflow property controls what happens when content overflows the boundaries of its container. It has several values:
+
+1) visible (default): Content overflows the container and is visible outside.
+2) hidden: Overflowing content is clipped and not visible.
+3) scroll: Adds scroll bars to view the overflowing content.
+4) auto: Adds scroll bars only if needed.
+
+
+This property helps manage how extra content is displayed within elements, especially in layouts with limited space. */
+
+
+
+.harsh{
+    width: 150px;
+    height: 200px;
+    overflow: scroll;
+    background-color: chartreuse;
+}

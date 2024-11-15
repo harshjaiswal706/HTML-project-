@@ -1,0 +1,96 @@
+.container{
+    background-color: blanchedalmond;
+    margin-top: 200px;
+    margin-left: 150px;
+    
+}
+/* position: relative; 
+   isme hmlg ko 4 chiz kii functionality milti hai 
+   top, bottom , left , right */
+   /* aur position static jaisa kuch nahi hota kyuki phele se hii sab static
+   position me hii rheta hai   */
+
+   /* position: absolute;
+   ye apna original position chor deta hai iske jagha koi aur element 
+   aa ke us jagha ko bhrta hai.
+   lekin relative me aisa ny hota hai wo apna position ny chorta hai  */
+
+   /* position: fixed; 
+   ye apna position viewport ke hisab se krta hai... ye koi parent section wgera nahi 
+   dekhta hai ....*/
+
+.box{
+    height: 100px;
+    width: 100px;
+    background-color: blue;
+    display: inline-block;
+}
+
+.box1{
+    
+    background-color: chartreuse;
+    
+   
+
+}
+/* jaise hmlg ko box2 me uska position change krna hai uske relative postion se
+to position relative denge  */
+
+.box2{
+    
+    background-color: red;
+    /* position: relative;
+    top: 10px;
+    left: 10px;
+    z-index: 5; */
+
+
+    /* position: absolute; */
+
+    /* box2 me position absolute kiye iska mtlb box2 jo hai wo apna position chor 
+    diya... aur box3 jo hai wo box2 ke jagha ko 
+    bhrne ke liye shift ho gya box2 ke jagha me...aur box2 jo hai wo 
+    box3 ke upper shift ho gya  ....  */
+
+
+    /* position absolute me iska relative path jo rheta hai wo iska parent  hota hai 
+    jaise ....
+    box2 apna parent ko dekhega ...to agr container  me position:relative; diya rheta
+    to wo uske hisab se position change krta ..then div me agr position ny diya hai 
+    to wo apne parent ko dekhega (body) tag me .. then waha bhi agr position ny diya 
+    hua hai ...tb box2 jo hai wo viewport ke hisab se position change krega (viewport 
+    mtlb pure screen ke hisab se)    */
+
+
+    position: fixed;
+    
+    /* position fixed == agr box2 me hmlg position fixed krenge to wo apna position chor 
+    dega aur usme top, bottom, right, left, denge to wo viewport ke hisab se fix ho jayega */
+}
+
+.box3{
+    
+    background-color: orange;
+}
+
+.box4{
+   
+    background-color: cornflowerblue;
+}
+
+
+
+
+
+
+/* z-index  */
+
+/* z-index property controls the stacking order of elements 
+along the z-axis (depth) when they overlap on a page. 
+Higher z-index values place an element in front of elements with lower values. 
+It only works on positioned elements
+ (e.g., elements with position: absolute, relative, or fixed). */
+
+ /* z-index tbhi kaam krega jab usme position diya rhega 
+ jaise box3 me jab positin relative denge tab usme z-index de skte hai 
+  z-index: 5;  */

@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+}
+
+body{
+    background-color: rgb(238, 235, 235);
+}
+
+.box{
+    display: inline-block;
+}
+.img{
+    height: 250px;
+    width: auto;
+    border-radius: 20px;
+}
+.image{
+    position: relative;
+}
+
+.off{
+    font-size: 28px;
+    color: white;
+    background-color:  rgba(102, 102, 239, 0.6);
+    position: absolute;
+    bottom: 20px;
+    left: 10px;
+}
+
+.resturant_name{
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.card:hover{
+    background-color: white;
+    border-color: white;
+    /* hmlg isme border: 10px solid rgb(238, 235, 235);
+    yaha de skte the lekin  yaha dene prr image hilne lgta 
+    isliye border wala ko niche card me de diye 
+    aur (hover ke sath border me solid nahi dena chaiye) */
+}
+
+.card{
+    display: inline-block;
+    margin-top: 10px;
+    margin-left: 10px;
+    cursor: pointer;
+    border: 10px solid rgb(238, 235, 235);
+    border-radius: 20px;
+}
+
+/* yaha pe card ko bhi inline block bnana pdega 
+wena wo pura space lega aur hmko to sirf photo tk
+hii to chaiye  */
+
+.resturant, .location, .food{
+    position: relative;
+    /* yaha pe position ko relative dena hoga 
+    bcoz rating ka ye parent element hai 
+    jiske wajhe se hm rating ko right side fix
+    krne ke liye position absolute de ske */
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.rating{
+    background-color: green;
+    color: white;
+    height: 20px;
+    padding: 2.5px;
+    border-radius: 6px;
+    /* margin-left: 82px; */
+
+    /* yaha pe 4.2 ko right le jane ke liye 
+    position absolute ka use krr skte hai  */
+
+    position: absolute;
+    right: 3px;
+}
+
+
+
+.price{
+    position: absolute;
+    right: 3px;
+}
+
+
+.distance{
+    position: absolute;
+    right: 3px;
+}
+
+.food, .place{
+    font-size: 15px;
+    color: rgb(88, 88, 88);
+}
+
+.distance{
+    font-size: 15px;
+    font-weight: bold;
+}

@@ -1,0 +1,66 @@
+/* order of cascading */
+
+/* order < specificity < type < important */
+
+/* 1) order .
+
+h1{
+    background-color: aqua;
+}
+
+h1{
+    background-color: beige;
+} */
+/* yaha pe niche wala ka priroty jada hai bas tag same hona chaiye  */
+
+/* 2) specificity = 
+
+    id > attribute > class > child and descendent > element and group element  */
+
+    /* #first_id{
+        background-color: pink;
+    } */
+
+     /* id tag */
+
+
+     /* .first_class{
+        background-color: blue;
+     } */
+
+     /* class tag */
+
+    
+    /* h2[draggable="true"]{
+        background-color: orange;
+    } */
+
+    /* attribute selector */
+
+    /* body > h1{
+    background-color: gray;
+    } */
+
+    /* child */
+
+
+    /* body h1{
+        background-color: black;
+    } */
+
+    /* descendent */
+
+
+
+    /* 3) type 
+      
+    inline > internal > external 
+ */
+
+
+    /* 4) important  */
+
+    /* h1{
+        background-color: blue !important; 
+    } */
+     /* jaha important aa jayega waha kisi ka nahi chalega sbse phele important ko priority diya jayega  */

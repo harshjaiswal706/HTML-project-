@@ -1,0 +1,41 @@
+*{
+    background-color: blue;
+    margin: 0;
+}
+
+.first{
+    display: inline-block;
+    height: 40vh;
+    width: 25vw;
+    background-color: white;
+}
+ 
+.second{
+    display: inline-block;
+    height: 40vh;
+    width: 60vw;
+    background-color: white;
+}
+
+.third{
+    display: inline-block;
+    height: 40vh;
+    width: 25vw;
+    background-color: white;
+}
+
+.fourth{
+    display: inline-block;
+    height: 40vh;
+    width: 60vw;
+    background-color: white;
+}
+
+.second,.fourth{
+    margin-left: 15vw;
+}
+
+.third,.fourth{
+    margin-top: 19vh;
+}
+

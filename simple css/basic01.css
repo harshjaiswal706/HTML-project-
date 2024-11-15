@@ -1,0 +1,32 @@
+h1{
+    color: aquamarine;
+    background-color: red;
+}
+h2{
+    color: blue;
+    background-color: bisque;
+}
+ul{
+    color: brown;
+    background-color: chartreuse;
+}
+/* select by class name */
+/* you need to apply dot(.) first then mentioned class name */
+.first{
+    color: black;
+    background-color: aqua;
+}
+.second{
+    color: black;
+    background-color: chartreuse;
+}
+/* select by id name  */
+/* you need to apply hass(#) first  */
+#third{
+    color: aquamarine;
+    background-color: blue;
+}
+#fourth{
+    color: brown;
+    background-color: rgb(2, 159, 159);
+}

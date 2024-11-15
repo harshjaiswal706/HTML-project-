@@ -1,0 +1,64 @@
+/* .first{
+    width: 300px;
+    height: 300px;
+    float: left;
+    margin-right: 10px;
+}
+
+.second{
+    width: 300px;
+    height: 300px;
+    float: left;
+    margin-right: 10px;
+} */
+
+/* float sirf horizontally kaam krta hai isme center aur 
+up down nahi hota hai  */
+
+/* the float property is used to position an element to the left or right of its container, allowing text and inline elements to wrap around it. Common values are:
+
+left: Floats the element to the left.
+right: Floats the element to the right.
+none: Removes float, positioning the element normally.
+
+Floats are commonly used for text wrapping or simple layouts,
+ but more modern layout techniques (like Flexbox and Grid) are generally preferred for complex designs. */
+
+
+
+ /* agr hmko aisa krna hai kii.......
+ rohit sharma kii photo left me aur virat kohli kii photo right me chaiye 
+ aur beech me mera content chaiye tb......*/
+
+ .first{
+    width: 300px;
+    height: 300px;
+    float: left;
+    margin: 10px;
+ }
+
+ .second{
+    width: 300px;
+    height: 300px;
+    float: right;
+ }
+
+ /* ek photo ek niche dusre photo ko kaise laa skte hai 
+ 
+ clear statement use krr ke 
+ 
+ clear: left; / right; ....*/
+
+ 
+
+ /* the clear property is used to control the behavior of elements following a floated element. It prevents elements from wrapping around a float by "clearing" the float. Common values are:
+
+left: Clears left floats.
+
+right: Clears right floats.
+
+both: Clears both left and right floats.
+
+none: Default, no clearing applied.
+
+It’s often used after floats to prevent layout issues and ensure elements appear as expected. */

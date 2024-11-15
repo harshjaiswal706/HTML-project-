@@ -1,0 +1,90 @@
+/* name ke saath change  */
+/* h1{
+    color: blue;
+} */
+
+
+
+/* hmlg rgb kii bhi madad se color change krr skte hai  */
+/* h1{
+    color: rgb(red, green, blue);
+}
+we can also change the rgb color in number (0-255) */
+
+
+
+/* hexadecimal me bhi color change krr skte hai  */
+/* h2{
+    color: #2fed2f;
+} */
+/* hexadecimal color start with #
+and enter 6 letter(0-f) */
+
+
+
+
+/* color change by hsl */
+/* h2{
+    color: hsl(30,50%, 60%);
+} */
+/* HSL stands for hue, saturation, and lightness. Hue is the
+color type (a degree on the color wheel from 0 to 360),
+saturation is the intensity of the color (0% is grayscale, 100%
+is fully saturated), and lightness defines how light or dark the
+color is (0% is black, 100% is white). */
+
+
+
+
+
+/* background me image bhi lga skte hai  */
+/* h1{
+    color: rgb(red, green, blue);
+    background-image: url();
+    background-size: cover;
+} */
+ /* url ke andar image ka path dena hai  */
+
+
+
+
+ /* font style  */
+ /* h1{
+    color: blue;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px/2em/3em/200%;
+} */
+/* pixel size is determined by your device
+em, relative to  parent font size
+rem, relative to html font size  
+% , relative to parent font size  */
+
+
+
+
+
+
+/* viewport widht and viewport height */
+/* h1{
+    font-size: 20vw; */
+    /* font-size: 20vh; */
+    /* %of veiwport  */
+    /* font-weight: (100-900) */
+    /* font-style: normal/italic/etc. */
+/* } */
+
+
+
+/* line ke beech ke hight and line spacing */
+/* h1{
+    line-height: 20px;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+    text-transform: lowercase;
+    text-transform: uppercase;
+} */
+
+
+
+    
+

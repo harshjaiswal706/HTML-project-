@@ -1,0 +1,35 @@
+/* ye universal selecter hai */
+/* *{
+    color: aquamarine;
+    background-color: red;
+} */
+
+
+
+/* grouping selector . ex-h1,h2,p */
+ /* h1,p,#five{
+    color: aquamarine;
+    background-color: blue;
+} */
+
+
+
+/* draggable selector  = means select by attribute */ 
+/* p[draggable="true"]{
+    color: red;
+    background-color: aqua;
+} */
+
+
+
+/* select by decendent = means select by parent*/
+/* section p{
+    color: blue;
+    background-color: aquamarine;
+} */
+
+/* select by child */
+section > p{
+    color: brown;
+    background-color: aquamarine;
+}

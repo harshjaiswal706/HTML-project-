@@ -1,0 +1,98 @@
+/* content, panding (border se content ka duri), border, margin  */
+
+
+h1{
+    color: blue;
+    background-color: aqua;
+    /* hmlg content ka width and height change krr skte hai */
+    /* width: 300px; aur agr % me krna hai to 50px krr skte hai 
+    height: 50; aur agr % me krna hai to 50px krr skte hai */
+    
+
+    /* ek side se border dena hai age to  border left width */
+    border-left-width: 10px;
+    border-color: black;
+    border-style: solid;
+
+
+
+    /* margin */
+    /* margin: top right bottom left */
+    margin: 20px 10px 20px 10px;
+   
+}
+
+
+ul{
+    color: blueviolet;
+    background-color: aquamarine;
+    border-width: 10px;
+    border-style: solid;
+    border-color: black;
+    padding: 20px;
+}
+
+p{
+    color: black;
+    background-color: chartreuse;
+    /* border-width: 10px;
+    border-color: blueviolet;
+    border-style: solid; */
+    padding: 10px;
+    /* hmko border ka edge rounded chaiye age. use border radius  */
+    border-radius: 20px;
+
+    /* shortcut of border widht,color,style*/
+    border: 10px blueviolet solid;
+
+    
+}
+
+h2{
+    color: blue;
+    background-color: aquamarine;
+    border-left-width: 10px;
+    border-left-color: black;
+    border-left-style: solid;
+}
+
+
+/* box sizing  */
+
+
+/* 1) content box */
+
+/* 1. When box-sizing: content-box is applied, the width and height properties only include the content area, not the padding or border.
+2. This is the default value for most elements in CSS.
+3. If you set an element’s width to 200px, the actual rendered width will be the content width, and any padding or borders will be added outside of this width. */
+
+/* .content-box-example {
+    box-sizing: content-box;
+    width: 200px;
+    padding: 20px;
+    border: 5px solid black;
+} */
+/* In this example, the element's total width will be 200px + padding + border. */
+
+/* 2) border box */
+
+/* 1. When box-sizing: border-box is applied, the width and height properties include the content, padding, and border.
+2. This means that the specified width will be the total width of the element, including padding and border.
+3. For example, if you set an element’s width to 200px, this 200px will include the content, padding, and border, making layout calculations easier. */
+
+/* .border-box-example {
+    box-sizing: border-box;
+    width: 200px;
+    padding: 20px;
+    border: 5px solid black;
+} */
+/* In this case, the element's total width remains 200px, as padding and border are included within this width. */
+
+h3{
+    color: brown;
+    width: 2oopx;
+    height: 100px;
+    padding: 10px;
+    border: 5px black solid;
+    box-sizing: border-box;
+}
